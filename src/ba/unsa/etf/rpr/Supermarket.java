@@ -4,6 +4,7 @@ public class Supermarket {
     int trenutniBrojArtikala;
 
     public void dodajArtikl(Artikl a) {
+        //ovdje dodati nesto ako se premasi broj artikala od 1000
         supermarket[trenutniBrojArtikala] = a;
         trenutniBrojArtikala = trenutniBrojArtikala + 1;
     }
